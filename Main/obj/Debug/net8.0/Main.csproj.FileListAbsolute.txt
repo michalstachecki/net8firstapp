@@ -1,0 +1,15 @@
+C:\Net8FirstApp\Main\bin\Debug\net8.0\Main.exe
+C:\Net8FirstApp\Main\bin\Debug\net8.0\Main.deps.json
+C:\Net8FirstApp\Main\bin\Debug\net8.0\Main.runtimeconfig.json
+C:\Net8FirstApp\Main\bin\Debug\net8.0\Main.dll
+C:\Net8FirstApp\Main\bin\Debug\net8.0\Main.pdb
+C:\Net8FirstApp\Main\obj\Debug\net8.0\Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net8FirstApp\Main\obj\Debug\net8.0\Main.AssemblyInfoInputs.cache
+C:\Net8FirstApp\Main\obj\Debug\net8.0\Main.AssemblyInfo.cs
+C:\Net8FirstApp\Main\obj\Debug\net8.0\Main.csproj.CoreCompileInputs.cache
+C:\Net8FirstApp\Main\obj\Debug\net8.0\Main.sourcelink.json
+C:\Net8FirstApp\Main\obj\Debug\net8.0\Main.dll
+C:\Net8FirstApp\Main\obj\Debug\net8.0\refint\Main.dll
+C:\Net8FirstApp\Main\obj\Debug\net8.0\Main.pdb
+C:\Net8FirstApp\Main\obj\Debug\net8.0\Main.genruntimeconfig.cache
+C:\Net8FirstApp\Main\obj\Debug\net8.0\ref\Main.dll
