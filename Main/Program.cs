@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Frozen;
+using System.ComponentModel;
 using System.Globalization;
 
 Console.WriteLine("Hello, World!");
@@ -23,3 +24,23 @@ Console.WriteLine(TypeDescriptor.GetConverter(cultureInfoExampleDateTime).Conver
 
 var timeonly = new TimeOnly(10, 14, 15);
 Console.WriteLine(timeonly.ToString());
+
+var array = new[] { 1, 2, 3 };
+new Random().Shuffle(array);
+Console.WriteLine("Shuffle result: ");
+foreach(var element in array)
+{
+    Console.WriteLine(element);
+}
+
+Dictionary<string, string> dictionary = new Dictionary<string, string>();
+dictionary.TryAdd("1", "first");
+dictionary.TryAdd("2", "second");
+//should not work
+dictionary.TryAdd("1", "first2");
+FrozenDictionary<string, string> frozen = dictionary.ToFrozenDictionary();
+Console.WriteLine("FrozenDictionary result: ");
+foreach(var element in frozen)
+{
+    Console.WriteLine(element);
+}
